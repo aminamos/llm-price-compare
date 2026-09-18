@@ -1,4 +1,10 @@
-rank,model,input_per_1M,output_per_1M,cache_hit_per_1M,cache_miss_per_1M,peak_rates,offpeak_rates,blended_per_1M,benchmark_suite,benchmark_score
-1,muse-spark-1.3-standard,1.25,4.25,0.15,1.25,flat,flat,2.00,terminal-bench-2.1,88.8
-2,deepseek-v4-flash,0.22,0.66,0.007,0.22,"0.44 in / 1.32 out / 0.014 hit","0.22 in / 0.66 out / 0.007 hit",0.33,terminal-bench-2.1,82.7
-3,minimax-m3-api,0.30,1.20,0.06,0.30,flat,flat,0.525,terminal-bench-2.1,66.0
+rank,model,provider,input_per_1M,output_per_1M,cache_hit_per_1M,cache_miss_per_1M,peak_rates,offpeak_rates,blended_per_1M,benchmark_suite,benchmark_score
+1,muse-spark-1.3-standard,Meta,1.25,4.25,0.15,1.25,flat,flat,2.00,terminal-bench-2.1,88.8
+2,deepseek-v4-flash-0731,DeepSeek official,0.22,0.66,0.007,0.22,"0.44 in / 1.32 out / 0.014 hit","0.22 in / 0.66 out / 0.007 hit",0.33,terminal-bench-2.1,82.7
+2,deepseek-v4-flash-0731,Sference,0.28,0.56,0.07,0.28,flat,flat,0.35,terminal-bench-2.1,82.7
+3,minimax-m3-api,MiniMax,0.30,1.20,0.06,0.30,flat,flat,0.525,terminal-bench-2.1,66.0
+,deepseek-v4.1-flash,Sference,0.50,1.50,0.05,0.50,flat,flat,0.75,,
+,glm-5.3,Sference,1.20,4.20,0.26,1.20,flat,flat,1.95,,
+,glm-5.2,Sference,1.20,4.20,0.26,1.20,flat,flat,1.95,,
+,glm-5.3-flash,Sference,0.20,0.60,0.07,0.20,flat,flat,0.30,,
+,kimi-k3,Sference,3.00,15.00,0.45,3.00,flat,flat,6.00,,
